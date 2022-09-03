@@ -1,0 +1,228 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content:space-around;
+    padding: 30px 0px;
+    align-items: center;
+    background-color:#FFFFFF;
+}
+nav ul {
+    display: flex;
+
+}
+nav{
+    display: flex;
+    
+}
+nav ul li{
+    margin-left: 40px;
+    list-style: none;
+}
+.headbut a{
+    margin-left: 40px;
+    color: #fff;
+    background-color: #0061f2;
+    border-color: #0061f2;
+    font-weight: 500;
+    border: 1px solid transparent;
+    border-radius: 0.35rem;
+    font-size: 0.875rem;
+    padding: 0.6rem 2rem;
+    font-size: 0.875rem;
+
+}
+.logo a{
+    color:#212832;
+    font-size: 19.2px;
+    font-weight: bold;
+}
+nav ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.55);
+}
+.section1{
+    padding: 250px;
+    background-image:url(https://images.unsplash.com/photo-1501183638710-841dd1904471?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1200&ixid=MXwxfDB8MXxhbGx8fHx8fHx8fA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 70%, 84% 91%, 50% 100%, 17% 91%, 0% 70%, 0% 35%, 0 0);
+
+    
+   
+}
+.sec1txt h1{
+font-size: 40px;
+color: #363d47;
+}
+.sec1txt p{
+    font-size: 19px;
+    color: #363d47;
+    
+}
+.sec1but{
+    margin-top: 25px;
+}
+.sec1but .blue{
+    color: #fff;
+    background-color: #0061f2;
+    border-color: #0061f2;
+    border: 1px solid transparent;
+    padding: 0.875rem 1.125rem;
+    font-size: 0.875rem;
+    border-radius: 0.35rem;
+    font-weight: 500 ;
+}
+.sec1but .white{
+    color: #212832;
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.875rem 1.125rem;
+    font-size: 0.875rem;
+    border-radius: 0.35rem;
+}
+.section2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.section2 .box .top img{
+    width: 430px;
+    height: 265px;
+    border-top-left-radius: 0.35rem;
+    border-top-right-radius: 0.35rem;
+   
+   
+}
+.middle{
+    padding:20px;
+}
+.middle p{
+    width: 70%;
+    font-size: 16px;
+}
+.section2 .box{
+    
+    width: 22.7%;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 0.35rem;
+    
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+
+}
+.middle h4{
+    font-size: 19px;
+}
+.bottom {
+    padding: 10px 20px;
+   border-top: 1px solid #e0e5ec;
+}
+
+.sec3body p{
+    padding: 24px 20px;
+    border:1px solid #e0e5ec;
+    margin: 0px 23rem;
+    
+}
+.top1 p{
+    border-top-left-radius: 0.35rem;
+    border-top-right-radius: 0.35rem;
+    border-bottom:none ;
+}
+.middle1 p{
+  border-bottom:none ;  
+}
+.head1 h2{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #363d47;
+    margin-left: 850px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.section4{
+    background-image: url(https://images.unsplash.com/photo-1533090161767-e6ffed986c88?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&ixid=MXwxfDB8MXxhbGx8fHx8fHx8fA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600);
+    padding: 250px 0px;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 0, 100% 0, 100% 83%, 0% 100%);
+    margin-top: 80px;
+    margin-bottom: 50px;
+    
+}
+.sec4txt{
+    color: #212832 !important;
+    font-size: 3.5rem;
+    font-weight: 300;
+    margin-left: 350px;
+}
+.sec4but a{
+    font-weight: 500;
+    color: #fff;
+    background-color: #0061f2;
+    border-color: #0061f2;
+    border: 1px solid transparent;
+    padding: 0.875rem 1.125rem;
+    font-size: 0.875rem;
+    border-radius: 0.35rem;
+    margin-left: 350px;
+    
+
+}
+.sec4but{
+    margin-top: 30px;
+}
+.section5{
+    
+    display: flex;
+    padding: 200px 200px;
+    align-items: center;
+}
+
+ .left{
+    padding: 0 120px;
+
+}
+.right{
+    padding: 0 120px;
+    border-left: 1px solid #c1cedf;
+    
+    
+    
+   
+} 
+ .rightmiddle{
+    font-size: 22.6px;
+    color: #0061f2;
+    margin-top: 15px;
+    word-spacing: 3px;
+    
+
+}
+.section5 h5{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+
+
+
+
+    
+    
+
+
